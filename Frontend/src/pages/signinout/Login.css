@@ -1,0 +1,40 @@
+body {
+  background-color: #f8f9fa;
+}
+.wrapper {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding-top: 110px;
+  padding-bottom: 100px;
+}
+.slider-tab {
+  width: 50%;
+  height: 4px;
+  background: #007bff;
+  position: absolute;
+  bottom: 50px; /* Adjust based on design */
+  transition: 0.5s;
+}
+.slide-controls {
+  position: relative;
+}
+.slide-controls input {
+  display: none;
+}
+.slide-controls label {
+  cursor: pointer;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  background: #e9ecef;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+}
+.slide-controls label.active {
+  background: #007bff;
+  color: white;
+}
